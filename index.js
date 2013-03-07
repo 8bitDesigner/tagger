@@ -11,9 +11,6 @@ function main() {
 
     exec('npm version '+type, then(function(stdout) {
       console.log('Bumped '+ type +' version to ' + stdout.split('\n').shift())
-      exec('git push --tags', then(function(stdout, stderr) {
-        console.log(stderr)
-      }))
     }))
   }))
 }
