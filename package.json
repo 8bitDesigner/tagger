@@ -7,7 +7,7 @@
     "test": "mocha test"
   },
   "bin": "index.js",
-  "repository": "",
+  "repository": "git://github.com/beachmint/tagger.git",
   "author": "Paul Sweeney <psweeney@beachmint.com>",
   "license": "BSD",
   "devDependencies": {
