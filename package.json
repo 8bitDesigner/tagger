@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha test"
   },
-  "bin": "index.js"
+  "bin": "index.js",
   "repository": "",
   "author": "Paul Sweeney <psweeney@beachmint.com>",
   "license": "BSD",
