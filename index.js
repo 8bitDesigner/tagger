@@ -36,7 +36,8 @@ function getBranch(message) {
 }
 
 function getType(branch) {
-  var bits = branch.split('/')
+  // support legacy '/' branch names
+  var bits = branch.split(/[\/-]/)
     , type
 
   switch (bits.shift()) {

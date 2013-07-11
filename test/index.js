@@ -37,9 +37,9 @@ describe("Tagger", function() {
       "feature/things": "major",
       "major/things":   "major",
       "task/things":    "minor",
-      "chore/things":   "minor",
-      "minor/things":   "minor",
-      "patch/things":   "patch",
+      "chore-things":   "minor",
+      "minor-things":   "minor",
+      "patch-things":   "patch",
       "things":         "patch",
       "":               "patch"
     }
