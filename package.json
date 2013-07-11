@@ -1,6 +1,6 @@
 {
   "name": "tagger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatically create git tags if the last commit was a GitHub merge",
   "main": "index.js",
   "scripts": {
