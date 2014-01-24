@@ -7,8 +7,11 @@
     "test": "mocha test"
   },
   "bin": "index.js",
-  "repository": "git://github.com/beachmint/tagger.git",
-  "author": "Paul Sweeney <psweeney@beachmint.com>",
+  "repository": "git://github.com/8bitDesigner/tagger.git",
+  "author": "Paul Sweeney <paul@8-bitdesign.com> (https://github.com/8bitDesigner)",
+  "contributors": [
+    "Drew Stokes <drewmstokes@gmail.com> (https://github.com/dstokes)"
+  ],
   "license": "BSD",
   "devDependencies": {
     "mocha": "~1.8.1",
